@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman',  sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+nav{
+    width: 100%;
+    padding:10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(110, 110, 112);
+}
+#akey a{
+    color: #694c2a;
+}
+.logo{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(248, 248, 250);
+    letter-spacing: 2px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.nav-links li a{
+   position: relative; /*???*/
+   text-decoration: none;
+    color:black ;
+    font-size: 22px;
+}
+.nav-links li a:hover{
+    color: rgb(54, 7, 62);
+ 
+}
+.btns{
+    display: flex;
+}
+.btn{
+    padding: 10px;
+    border-radius: 30px;
+    background: rgb(13, 20, 53);
+    color:rgb(231, 231, 240) ;
+    box-shadow: 0 0 20px black;
+    border: none;
+    cursor: pointer;
+}
+
+@media(max-width:800px){
+    nav,.nav-links{
+     flex-direction: column;
+     height: auto;
+     text-align: center;
+    }
+    .btns{
+        margin-top: 30px;
+    }
+   .bwat{
+    flex-direction: column;
+    height: auto;
+   }
+}
+@media(min-width:800px) and (max-width:1100px){
+    .log0{
+      font-size: 0.5rem;
+    }
+     .nav-links{
+     flex-direction: column;
+     height: auto;
+     text-align: center;
+    } 
+    .btns{
+      /* margin-top: 160px; */
+    }
+    .logo{
+        /* margin-bottom: 160px; */
+    }
+    .grand{
+        height: auto;
+    }
+  
+}
+.grand{
+    width: 100%;
+    height: 250vh;
+    border: 2px solid black; 
+    background-image: url("fond1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container1{
+    margin-top: 30px;
+    /* border: 2px solid black; */
+    width: 100%;
+}
+.bwat1{
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+h2{
+    font-weight: 900;
+    font-size: 30px;
+   
+}
+.con p{
+    font-weight: 550;
+   margin-bottom: 10px;
+}
+.container1 p{
+    margin-top: 30px;
+}
+.con{
+   width: 80%;
+    /* border: 2px solid black; */
+    height: 300px;  
+}
+
+
+.container2{
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.bwat2{
+    /* border: 2px solid black; */
+    width: 80%;
+    height: 300px;
+}
+.con1{
+    /* border: 2px solid black; */
+    height: 300px;
+}
+.con1 .bar{
+    margin-top: 10px;
+}
+.con1 .info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.con1 span{
+    font-size: 18px;
+    font-weight:500 ;}
+
+.btn a{
+    outline: none;
+    list-style: none;
+    color: antiquewhite;
+    text-transform: none;
+}
+.ligne {
+  height: 20px;
+  background-color:rgb(110, 110, 112); /* couleur de fond */
+  border-radius: 10px;
+  margin: 10px 0;
+  position: relative;
+}
+
+.ligne::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  border-radius: 10px;
+  left: 0;
+  top: 0;
+}
+
+.Java::after {
+  width: 60%;
+  background-color:rgb(13, 20, 53); 
+}
+
+.html::after {
+  width: 90%;
+  background-color: rgb(13, 20, 53); 
+}
+
+.CPP::after {
+  width: 90%;
+  background-color:rgb(13, 20, 53); 
+}
+.SQL::after{
+    width: 90%;
+    background-color: rgb(13, 20, 53);
+}
+.container3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.log{
+    width: 80%;
+    /* border: 2px solid black; */
+
+}
+.container4{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.logi{
+    /* border: 2px solid black; */
+    height: 250px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
+.word,.excel,.powerpoint,.arduino,.cisco,.visio{
+    width: 19%;
+    /* border: 2px solid black; */
+    height: 200px;
+    text-align: center ;
+    justify-content: center;
+    align-content: center;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cisco .mo{
+margin-top: 80px;
+}
+.excel .mo , .powerpoint .mo , .word .mo , .visio .mo , .arduino .mo{
+    margin-top: 20px;
+}
+/*tablo*/
+.container5{
+    width: 100%;
+    /* border: 2px solid blue; */
+    height: 200px;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+/* table tr td{
+    border: solid 1px; 
+    width: 10%;
+}
+table{
+    /* border: solid 1px ; 
+    border-collapse:collapse;
+     margin: 90px 200px; 
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+td , th{
+    width: 100%;
+    height: auto;
+} */
+footer{
+   
+    /* border: 2px solid black; */
+    height: 130px;
+    border-top: none;
+    background-color: rgb(110, 110, 112);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+
+td:empty{
+    border: none;
+}
+.con5{
+    margin-top: 60px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+.con5 .bwat{
+    width: 80%;
+}
+/* .logi:hover{
+   color: bisque;
+} */
+
+@media(max-width:800px){
+    .container1,.container2,.con,.bwat1,.container3,.container4,.con5,.container5,.logi{
+     flex-direction: column;
+     height:auto;
+     align-items: center;
+    padding-bottom: 25px;
+    }
+   .logi{
+    
+    width: 100%;
+    height: auto;
+   } 
+.grand{
+    height: auto;
+}
+   
+}
+ 
+
+
+ .sum, .sum1, .sum2{
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    margin-top: 20px;
+ }
+ .sum h2, .sum1 h3{
+    width: 80%;
+ }
+ 
+ .sum2 li, .sum1 h3{
+    color: rgb(13, 20, 53);
+    font-size: 30px;
+    font-weight: 600;
+ }
+td,th{
+    padding: 15px;
+}
+.sum{
+    margin-top: 100px;
+}
+.num, .mail,.lieu{
+    text-align: center;
+    color:rgb(13, 20, 53);
+}
+@media (max-width:1350px
+){
+    .container1,.bwat1,.con{
+        height: auto;
+    }
+    footer{
+     flex-direction: column;
+     height: auto;
+     align-items: center;
+    }
+    .grand{
+        height: auto;
+    }
+    td,th{
+        padding: 0;
+        margin: 0;
+    }
+}
+

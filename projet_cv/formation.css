@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman',  sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+nav{
+    width: 100%;
+    padding:10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(110, 110, 112);
+}
+#akey a{
+    color: #694c2a;
+}
+.logo{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(248, 248, 250);
+    letter-spacing: 2px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.btn a{
+    outline: none;
+    list-style: none;
+    color: antiquewhite;
+    text-decoration: none;
+}
+.nav-links li a{
+   position: relative; /*???*/
+   text-decoration: none;
+    color:black ;
+    font-size: 22px;
+}
+.nav-links li a:hover{
+    color: rgb(54, 7, 62);
+ 
+}
+.btns{
+    display: flex;
+}
+.btn{
+    padding: 10px;
+    border-radius: 30px;
+    background: rgb(13, 20, 53);
+    color:rgb(231, 231, 240) ;
+    box-shadow: 0 0 20px black;
+    border: none;
+    cursor: pointer;
+}
+.bwat h2{
+    margin-bottom: 30px;
+}
+
+footer{
+   
+    border: 2px solid black;
+    height: 80px;
+    border-top: none;
+    background-color: rgb(110, 110, 112);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+.num, .mail,.lieu{
+    text-align: center;
+    color:rgb(13, 20, 53);
+}
+@media(max-width:730px){
+    footer{
+     flex-direction: column;
+     height: 450px;
+     align-items: center;
+    }
+}
+
+@media(max-width:870px){
+    nav,.nav-links{
+     flex-direction: column;
+     height: auto;
+     text-align: center;
+    }
+    /* .btns{
+        margin-top: 30px;
+    } */
+ 
+}
+@media(min-width:730px) and (max-width:1370px){
+    footer{
+        height: 300px;
+    }
+}
+@media(min-width:870px) and (max-width:1600px){
+    .log0{
+      font-size: 0.5rem;
+    }
+     .nav-links{
+     flex-direction: column;
+     height: auto;
+     text-align: center;
+    } 
+    .btns{
+      /* margin-top: 160px; */
+    }
+    .logo{
+        /* margin-bottom: 160px; */
+    }
+    .grand{
+        height: auto;
+    }
+}
+.grand{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid black; 
+    background-image: url("fond1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bwat{
+    margin-top: 60px;
+    margin-left: 100px;
+}
