@@ -161,7 +161,7 @@ h2{
     outline: none;
     list-style: none;
     color: antiquewhite;
-    text-transform: none;
+    text-decoration: none;
 }
 .ligne {
   height: 20px;
@@ -243,7 +243,7 @@ margin-top: 80px;
 .excel .mo , .powerpoint .mo , .word .mo , .visio .mo , .arduino .mo{
     margin-top: 20px;
 }
-/*tablo*/
+
 .container5{
     width: 100%;
     /* border: 2px solid blue; */
@@ -252,26 +252,11 @@ margin-top: 80px;
     text-align: center;
     
 }
-/* table tr td{
-    border: solid 1px; 
-    width: 10%;
-}
-table{
-    /* border: solid 1px ; 
-    border-collapse:collapse;
-     margin: 90px 200px; 
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
-td , th{
-    width: 100%;
-    height: auto;
-} */
+
 footer{
    
     /* border: 2px solid black; */
-    height: 130px;
+    height: auto;
     border-top: none;
     background-color: rgb(110, 110, 112);
     display: flex;
@@ -281,9 +266,7 @@ footer{
     
 }
 
-td:empty{
-    border: none;
-}
+
 .con5{
     margin-top: 60px;
     width: 100%;
@@ -334,9 +317,7 @@ td:empty{
     font-size: 30px;
     font-weight: 600;
  }
-td,th{
-    padding: 15px;
-}
+
 .sum{
     margin-top: 100px;
 }
@@ -357,9 +338,17 @@ td,th{
     .grand{
         height: auto;
     }
-    td,th{
-        padding: 0;
-        margin: 0;
-    }
+   
 }
 
+@media (min-width:1350px
+){
+    .container1,.bwat1,.con{
+        height: auto;
+    }
+    footer{
+     height: auto;
+     align-items: center;
+    }
+   
+}
