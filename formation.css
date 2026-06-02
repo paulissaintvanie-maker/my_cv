@@ -64,7 +64,7 @@ nav{
 footer{
    
     border: 2px solid black;
-    height: 80px;
+    height: 120px;
     border-top: none;
     background-color: rgb(110, 110, 112);
     display: flex;
@@ -83,7 +83,7 @@ footer{
      height: 450px;
      align-items: center;
     }
-}
+    }
 
 @media(max-width:870px){
     nav,.nav-links{
@@ -94,13 +94,29 @@ footer{
     /* .btns{
         margin-top: 30px;
     } */
+     .bwat p, .bwat h2, .bwat h3,footer{
+        height: auto;
+        font-size: 20px;
+        font-weight: 500;
+     }
+    .mail{
+        display: none;
+    }
+    .grand{
+        height: 200vh;
+    }
  
 }
-@media(min-width:730px) and (max-width:1370px){
-    footer{
-        height: 300px;
+
+@media (min-width:1370px){
+     .grand, .bwat{
+        height: auto;
+        flex-direction: column;
+        
     }
 }
+
+
 @media(min-width:870px) and (max-width:1600px){
     .log0{
       font-size: 0.5rem;
