@@ -42,6 +42,10 @@ nav{
 }
 .btns{
     display: flex;
+    
+}
+#ji{
+    margin-bottom: 30px;
 }
 .btn {
     padding: 10px;
@@ -79,7 +83,7 @@ nav{
 
 .grand{
     width: 100%;
-    height: 90vh;
+    height: 120vh;
     border: 2px solid black; 
     align-content: center;/*li aji verticalement*/
     justify-items: center;
@@ -231,5 +235,16 @@ footer{
 .pro p{
     font-size: 20px;
     font-weight: 600;
+}
+    
+@media(min-width:1200px){
+    footer, .bwat, .foto, .nom, .nom_con{
+        height: auto;
+    }
+    #ji{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    
 }
     
